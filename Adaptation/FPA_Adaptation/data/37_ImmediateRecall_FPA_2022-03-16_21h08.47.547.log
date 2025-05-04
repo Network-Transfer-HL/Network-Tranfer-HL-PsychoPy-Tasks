@@ -1,0 +1,262 @@
+1.5389 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+14.3518 	WARNING 	User requested fullscreen with size [1366  768], but screen is actually [1440, 900]. Using actual size
+15.0018 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7ff03ad55520>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7ff0394e2670>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.0021 	EXP 	window1: mouseVisible = True
+15.0021 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+15.0022 	EXP 	window1: recordFrameIntervals = False
+15.1677 	EXP 	window1: recordFrameIntervals = True
+15.3511 	EXP 	Screen (0) actual frame rate measured at 60.09Hz
+15.3511 	EXP 	window1: recordFrameIntervals = False
+17.5861 	EXP 	Created Anleitungstext1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Anleitungstext1', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.5864 	EXP 	window1: mouseVisible = True
+17.6067 	EXP 	Created Anleitungstext2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Anleitungstext2', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.6068 	EXP 	window1: mouseVisible = True
+17.6364 	EXP 	Created Cross = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Kreuz.png', interpolate=True, mask=None, maskParams=None, name='Cross', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.1 ]), texRes=128, units='height', win=Window(...))
+17.6408 	EXP 	Created CueFigure = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='CueFigure', opacity=1, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.38, 0.22]), texRes=512, units='height', win=Window(...))
+17.6451 	EXP 	Created topLeft = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='topLeft', opacity=1, ori=0.0, pos=array([0.1, 0.2]), size=array([0.38, 0.22]), texRes=512, units='height', win=Window(...))
+17.6495 	EXP 	Created bottomLeft = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='bottomLeft', opacity=1, ori=0.0, pos=array([ 0.1, -0.2]), size=array([0.38, 0.22]), texRes=512, units='height', win=Window(...))
+17.6540 	EXP 	Created topRight = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='topRight', opacity=1, ori=0.0, pos=array([0.6, 0.2]), size=array([0.38, 0.22]), texRes=512, units='height', win=Window(...))
+17.6584 	EXP 	Created bottomRight = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='bottomRight', opacity=1, ori=0.0, pos=array([ 0.6, -0.2]), size=array([0.38, 0.22]), texRes=512, units='height', win=Window(...))
+17.6710 	EXP 	Created Pfeile = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='Pfeile.png', interpolate=True, mask=None, maskParams=None, name='Pfeile', opacity=1, ori=45.0, pos=array([0.35, 0.  ]), size=array([0.315, 0.191]), texRes=512, units='height', win=Window(...))
+17.6711 	EXP 	window1: mouseVisible = True
+17.6804 	EXP 	Created Fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Kreuz.png', interpolate=True, mask=None, maskParams=None, name='Fixation', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.1 ]), texRes=512, units='height', win=Window(...))
+17.6848 	EXP 	Created Figure1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Figure1', opacity=1, ori=0.0, pos=array([-0.4,  0. ]), size=array([0.63 , 0.382]), texRes=512, units='height', win=Window(...))
+17.6892 	EXP 	Created Figure2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Figure2', opacity=1, ori=0.0, pos=array([0.4, 0. ]), size=array([0.63 , 0.382]), texRes=512, units='height', win=Window(...))
+17.6988 	EXP 	Created Fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Kreuz.png', interpolate=True, mask=None, maskParams=None, name='Fixation', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.1 ]), texRes=512, units='height', win=Window(...))
+17.7087 	EXP 	Created Ende = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Ende', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Ende\n\nVielen Dank!', units='height', win=Window(...), wrapWidth=1)
+17.7260 	EXP 	Anleitungstext1: autoDraw = True
+27.9544 	DATA 	Mouse: Left button down, pos=(682,469)
+27.9830 	EXP 	Anleitungstext1: autoDraw = False
+27.9830 	EXP 	Anleitungstext2: autoDraw = True
+28.1007 	DATA 	Mouse:  Left button up, pos=(682,469)
+44.1506 	DATA 	Mouse: Left button down, pos=(682,469)
+44.1735 	EXP 	Anleitungstext2: autoDraw = False
+44.1735 	EXP 	Cross: autoDraw = True
+44.3013 	DATA 	Mouse:  Left button up, pos=(682,469)
+45.2236 	EXP 	Imported FPA_ImmRec_Stimulus_List.xlsx as conditions, 6 conditions, 9 params
+45.2242 	EXP 	Created sequence: sequential, trialTypes=6, nReps=1, seed=None
+45.2245 	EXP 	New trial (rep=0, index=0): {'Cue': 'FPA_Stimuli/abstract002.png', 'Target': 'FPA_Stimuli/abstract005.png', 'L1': 'FPA_Stimuli/abstract005.png', 'L2': 'FPA_Stimuli/abstract007.png', 'R1': 'FPA_Stimuli/abstract008.png', 'R2': 'FPA_Stimuli/abstract009.png', 'corrPos': 'L1', 'corrAnsw': 'FPA_Stimuli/abstract005.png', 'Number': 1}
+45.2671 	EXP 	Cross: autoDraw = False
+45.2671 	EXP 	CueFigure: image = 'FPA_Stimuli/abstract002.png'
+45.2671 	EXP 	topLeft: image = 'FPA_Stimuli/abstract005.png'
+45.2671 	EXP 	bottomLeft: image = 'FPA_Stimuli/abstract007.png'
+45.2671 	EXP 	topRight: image = 'FPA_Stimuli/abstract008.png'
+45.2671 	EXP 	bottomRight: image = 'FPA_Stimuli/abstract009.png'
+45.2671 	EXP 	CueFigure: autoDraw = True
+45.2671 	EXP 	topLeft: autoDraw = True
+45.2671 	EXP 	bottomLeft: autoDraw = True
+45.2671 	EXP 	topRight: autoDraw = True
+45.2671 	EXP 	bottomRight: autoDraw = True
+48.2496 	EXP 	Pfeile: autoDraw = True
+49.4169 	DATA 	Mouse: Left button down, pos=(744,556)
+49.5835 	DATA 	Mouse:  Left button up, pos=(744,556)
+50.6169 	DATA 	Mouse: Left button down, pos=(784,631)
+50.8166 	DATA 	Mouse:  Left button up, pos=(784,631)
+52.1833 	EXP 	CueFigure: autoDraw = False
+52.1833 	EXP 	topLeft: autoDraw = False
+52.1833 	EXP 	bottomLeft: autoDraw = False
+52.1833 	EXP 	topRight: autoDraw = False
+52.1833 	EXP 	bottomRight: autoDraw = False
+52.1833 	EXP 	Pfeile: autoDraw = False
+52.1833 	EXP 	Fixation: autoDraw = True
+52.3015 	DATA 	Mouse: Left button down, pos=(1005,476)
+52.4509 	DATA 	Mouse:  Left button up, pos=(1005,476)
+56.3898 	EXP 	Fixation: autoDraw = False
+56.3898 	EXP 	Fixation: autoDraw = False
+56.3898 	EXP 	Figure1: image = 'FPA_Stimuli/abstract002.png'
+56.3898 	EXP 	Figure2: image = 'FPA_Stimuli/abstract005.png'
+56.3898 	EXP 	Figure1: autoDraw = True
+56.3898 	EXP 	Figure2: autoDraw = True
+59.3991 	EXP 	Figure1: autoDraw = False
+59.3991 	EXP 	Figure2: autoDraw = False
+59.3991 	EXP 	Fixation: autoDraw = True
+63.2833 	EXP 	New trial (rep=0, index=1): {'Cue': 'FPA_Stimuli/geometric003.png', 'Target': 'FPA_Stimuli/geometric006.png', 'L1': 'FPA_Stimuli/geometric009.png', 'L2': 'FPA_Stimuli/geometric007.png', 'R1': 'FPA_Stimuli/geometric006.png', 'R2': 'FPA_Stimuli/geometric010.png', 'corrPos': 'R1', 'corrAnsw': 'FPA_Stimuli/geometric006.png', 'Number': 1}
+63.3333 	EXP 	Fixation: autoDraw = False
+63.3333 	EXP 	Fixation: autoDraw = False
+63.3333 	EXP 	CueFigure: image = 'FPA_Stimuli/geometric003.png'
+63.3333 	EXP 	topLeft: image = 'FPA_Stimuli/geometric009.png'
+63.3333 	EXP 	bottomLeft: image = 'FPA_Stimuli/geometric007.png'
+63.3333 	EXP 	topRight: image = 'FPA_Stimuli/geometric006.png'
+63.3333 	EXP 	bottomRight: image = 'FPA_Stimuli/geometric010.png'
+63.3333 	EXP 	CueFigure: autoDraw = True
+63.3333 	EXP 	topLeft: autoDraw = True
+63.3333 	EXP 	bottomLeft: autoDraw = True
+63.3333 	EXP 	topRight: autoDraw = True
+63.3333 	EXP 	bottomRight: autoDraw = True
+66.0184 	DATA 	Mouse: Left button down, pos=(1195,598)
+66.2350 	DATA 	Mouse:  Left button up, pos=(1195,598)
+66.3159 	EXP 	Pfeile: autoDraw = True
+67.1500 	DATA 	Mouse: Left button down, pos=(1195,598)
+67.4000 	DATA 	Mouse:  Left button up, pos=(1195,598)
+68.6004 	DATA 	Mouse: Left button down, pos=(1195,598)
+68.8331 	DATA 	Mouse:  Left button up, pos=(1195,598)
+70.1669 	DATA 	Mouse: Left button down, pos=(1091,478)
+70.3159 	EXP 	CueFigure: autoDraw = False
+70.3159 	EXP 	topLeft: autoDraw = False
+70.3159 	EXP 	bottomLeft: autoDraw = False
+70.3159 	EXP 	topRight: autoDraw = False
+70.3159 	EXP 	bottomRight: autoDraw = False
+70.3159 	EXP 	Pfeile: autoDraw = False
+70.3159 	EXP 	Fixation: autoDraw = True
+70.3676 	DATA 	Mouse:  Left button up, pos=(1091,478)
+74.0228 	EXP 	Fixation: autoDraw = False
+74.0228 	EXP 	Fixation: autoDraw = False
+74.0228 	EXP 	Figure1: image = 'FPA_Stimuli/geometric003.png'
+74.0228 	EXP 	Figure2: image = 'FPA_Stimuli/geometric006.png'
+74.0228 	EXP 	Figure1: autoDraw = True
+74.0228 	EXP 	Figure2: autoDraw = True
+77.0323 	EXP 	Figure1: autoDraw = False
+77.0323 	EXP 	Figure2: autoDraw = False
+77.0323 	EXP 	Fixation: autoDraw = True
+81.1168 	EXP 	New trial (rep=0, index=2): {'Cue': 'FPA_Stimuli/abstract001.png', 'Target': 'FPA_Stimuli/abstract004.png', 'L1': 'FPA_Stimuli/abstract004.png', 'L2': 'FPA_Stimuli/abstract009.png', 'R1': 'FPA_Stimuli/abstract007.png', 'R2': 'FPA_Stimuli/abstract010.png', 'corrPos': 'L1', 'corrAnsw': 'FPA_Stimuli/abstract004.png', 'Number': 1}
+81.1579 	EXP 	Fixation: autoDraw = False
+81.1579 	EXP 	Fixation: autoDraw = False
+81.1579 	EXP 	CueFigure: image = 'FPA_Stimuli/abstract001.png'
+81.1579 	EXP 	topLeft: image = 'FPA_Stimuli/abstract004.png'
+81.1579 	EXP 	bottomLeft: image = 'FPA_Stimuli/abstract009.png'
+81.1579 	EXP 	topRight: image = 'FPA_Stimuli/abstract007.png'
+81.1579 	EXP 	bottomRight: image = 'FPA_Stimuli/abstract010.png'
+81.1579 	EXP 	CueFigure: autoDraw = True
+81.1579 	EXP 	topLeft: autoDraw = True
+81.1579 	EXP 	bottomLeft: autoDraw = True
+81.1579 	EXP 	topRight: autoDraw = True
+81.1579 	EXP 	bottomRight: autoDraw = True
+84.1324 	EXP 	Pfeile: autoDraw = True
+86.6497 	DATA 	Mouse: Left button down, pos=(1003,465)
+86.8517 	DATA 	Mouse:  Left button up, pos=(1003,465)
+87.4666 	DATA 	Mouse: Left button down, pos=(1003,465)
+87.7165 	DATA 	Mouse:  Left button up, pos=(1003,465)
+88.0664 	DATA 	Mouse: Left button down, pos=(1003,465)
+88.1322 	EXP 	Pfeile: autoDraw = False
+88.1487 	EXP 	CueFigure: autoDraw = False
+88.1487 	EXP 	topLeft: autoDraw = False
+88.1487 	EXP 	bottomLeft: autoDraw = False
+88.1487 	EXP 	topRight: autoDraw = False
+88.1487 	EXP 	bottomRight: autoDraw = False
+88.1487 	EXP 	Pfeile: autoDraw = False
+88.1487 	EXP 	Fixation: autoDraw = True
+88.2675 	DATA 	Mouse:  Left button up, pos=(1003,465)
+92.8552 	EXP 	Fixation: autoDraw = False
+92.8552 	EXP 	Fixation: autoDraw = False
+92.8552 	EXP 	Figure1: image = 'FPA_Stimuli/abstract001.png'
+92.8552 	EXP 	Figure2: image = 'FPA_Stimuli/abstract004.png'
+92.8552 	EXP 	Figure1: autoDraw = True
+92.8552 	EXP 	Figure2: autoDraw = True
+95.8653 	EXP 	Figure1: autoDraw = False
+95.8653 	EXP 	Figure2: autoDraw = False
+95.8653 	EXP 	Fixation: autoDraw = True
+99.3496 	EXP 	New trial (rep=0, index=3): {'Cue': 'FPA_Stimuli/geometric002.png', 'Target': 'FPA_Stimuli/geometric005.png', 'L1': 'FPA_Stimuli/geometric007.png', 'L2': 'FPA_Stimuli/geometric005.png', 'R1': 'FPA_Stimuli/geometric009.png', 'R2': 'FPA_Stimuli/geometric008.png', 'corrPos': 'L2', 'corrAnsw': 'FPA_Stimuli/geometric005.png', 'Number': 1}
+99.3868 	EXP 	Fixation: autoDraw = False
+99.3868 	EXP 	Fixation: autoDraw = False
+99.3868 	EXP 	CueFigure: image = 'FPA_Stimuli/geometric002.png'
+99.3868 	EXP 	topLeft: image = 'FPA_Stimuli/geometric007.png'
+99.3868 	EXP 	bottomLeft: image = 'FPA_Stimuli/geometric005.png'
+99.3868 	EXP 	topRight: image = 'FPA_Stimuli/geometric009.png'
+99.3868 	EXP 	bottomRight: image = 'FPA_Stimuli/geometric008.png'
+99.3868 	EXP 	CueFigure: autoDraw = True
+99.3868 	EXP 	topLeft: autoDraw = True
+99.3868 	EXP 	bottomLeft: autoDraw = True
+99.3868 	EXP 	topRight: autoDraw = True
+99.3868 	EXP 	bottomRight: autoDraw = True
+102.3650 	EXP 	Pfeile: autoDraw = True
+103.2834 	DATA 	Mouse: Left button down, pos=(983,415)
+103.5326 	DATA 	Mouse:  Left button up, pos=(983,415)
+103.7998 	DATA 	Mouse: Left button down, pos=(983,415)
+104.0495 	DATA 	Mouse:  Left button up, pos=(983,415)
+104.2997 	DATA 	Mouse: Left button down, pos=(983,415)
+104.4994 	DATA 	Mouse:  Left button up, pos=(983,415)
+105.2161 	DATA 	Mouse: Left button down, pos=(860,298)
+105.4827 	DATA 	Mouse:  Left button up, pos=(860,298)
+105.6661 	DATA 	Mouse: Left button down, pos=(860,298)
+105.9161 	DATA 	Mouse:  Left button up, pos=(860,298)
+106.0495 	DATA 	Mouse: Left button down, pos=(860,298)
+106.2160 	DATA 	Mouse:  Left button up, pos=(860,298)
+106.3650 	EXP 	Pfeile: autoDraw = False
+106.3818 	EXP 	CueFigure: autoDraw = False
+106.3818 	EXP 	topLeft: autoDraw = False
+106.3818 	EXP 	bottomLeft: autoDraw = False
+106.3818 	EXP 	topRight: autoDraw = False
+106.3818 	EXP 	bottomRight: autoDraw = False
+106.3818 	EXP 	Pfeile: autoDraw = False
+106.3818 	EXP 	Fixation: autoDraw = True
+110.6875 	EXP 	Fixation: autoDraw = False
+110.6875 	EXP 	Fixation: autoDraw = False
+110.6875 	EXP 	Figure1: image = 'FPA_Stimuli/geometric002.png'
+110.6875 	EXP 	Figure2: image = 'FPA_Stimuli/geometric005.png'
+110.6875 	EXP 	Figure1: autoDraw = True
+110.6875 	EXP 	Figure2: autoDraw = True
+113.6984 	EXP 	Figure1: autoDraw = False
+113.6984 	EXP 	Figure2: autoDraw = False
+113.6984 	EXP 	Fixation: autoDraw = True
+115.3831 	EXP 	New trial (rep=0, index=4): {'Cue': 'FPA_Stimuli/abstract003.png', 'Target': 'FPA_Stimuli/abstract006.png', 'L1': 'FPA_Stimuli/abstract008.png', 'L2': 'FPA_Stimuli/abstract006.png', 'R1': 'FPA_Stimuli/abstract010.png', 'R2': 'FPA_Stimuli/abstract005.png', 'corrPos': 'L2', 'corrAnsw': 'FPA_Stimuli/abstract006.png', 'Number': 2}
+115.4194 	EXP 	Fixation: autoDraw = False
+115.4194 	EXP 	Fixation: autoDraw = False
+115.4194 	EXP 	CueFigure: image = 'FPA_Stimuli/abstract003.png'
+115.4194 	EXP 	topLeft: image = 'FPA_Stimuli/abstract008.png'
+115.4194 	EXP 	bottomLeft: image = 'FPA_Stimuli/abstract006.png'
+115.4194 	EXP 	topRight: image = 'FPA_Stimuli/abstract010.png'
+115.4194 	EXP 	bottomRight: image = 'FPA_Stimuli/abstract005.png'
+115.4194 	EXP 	CueFigure: autoDraw = True
+115.4194 	EXP 	topLeft: autoDraw = True
+115.4194 	EXP 	bottomLeft: autoDraw = True
+115.4194 	EXP 	topRight: autoDraw = True
+115.4194 	EXP 	bottomRight: autoDraw = True
+118.3983 	EXP 	Pfeile: autoDraw = True
+120.0491 	DATA 	Mouse: Left button down, pos=(1081,433)
+120.2659 	DATA 	Mouse:  Left button up, pos=(1081,433)
+122.3982 	EXP 	Pfeile: autoDraw = False
+122.4148 	EXP 	CueFigure: autoDraw = False
+122.4148 	EXP 	topLeft: autoDraw = False
+122.4148 	EXP 	bottomLeft: autoDraw = False
+122.4148 	EXP 	topRight: autoDraw = False
+122.4148 	EXP 	bottomRight: autoDraw = False
+122.4148 	EXP 	Pfeile: autoDraw = False
+122.4148 	EXP 	Fixation: autoDraw = True
+124.7191 	EXP 	Fixation: autoDraw = False
+124.7191 	EXP 	Fixation: autoDraw = False
+124.7191 	EXP 	Figure1: image = 'FPA_Stimuli/abstract003.png'
+124.7191 	EXP 	Figure2: image = 'FPA_Stimuli/abstract006.png'
+124.7191 	EXP 	Figure1: autoDraw = True
+124.7191 	EXP 	Figure2: autoDraw = True
+127.7315 	EXP 	Figure1: autoDraw = False
+127.7315 	EXP 	Figure2: autoDraw = False
+127.7315 	EXP 	Fixation: autoDraw = True
+131.3156 	EXP 	New trial (rep=0, index=5): {'Cue': 'FPA_Stimuli/geometric001.png', 'Target': 'FPA_Stimuli/geometric004.png', 'L1': 'FPA_Stimuli/geometric010.png', 'L2': 'FPA_Stimuli/geometric008.png', 'R1': 'FPA_Stimuli/geometric007.png', 'R2': 'FPA_Stimuli/geometric004.png', 'corrPos': 'R2', 'corrAnsw': 'FPA_Stimuli/geometric004.png', 'Number': 2}
+131.3503 	EXP 	Fixation: autoDraw = False
+131.3503 	EXP 	Fixation: autoDraw = False
+131.3503 	EXP 	CueFigure: image = 'FPA_Stimuli/geometric001.png'
+131.3503 	EXP 	topLeft: image = 'FPA_Stimuli/geometric010.png'
+131.3503 	EXP 	bottomLeft: image = 'FPA_Stimuli/geometric008.png'
+131.3503 	EXP 	topRight: image = 'FPA_Stimuli/geometric007.png'
+131.3503 	EXP 	bottomRight: image = 'FPA_Stimuli/geometric004.png'
+131.3503 	EXP 	CueFigure: autoDraw = True
+131.3503 	EXP 	topLeft: autoDraw = True
+131.3503 	EXP 	bottomLeft: autoDraw = True
+131.3503 	EXP 	topRight: autoDraw = True
+131.3503 	EXP 	bottomRight: autoDraw = True
+134.3317 	EXP 	Pfeile: autoDraw = True
+136.4993 	DATA 	Mouse: Left button down, pos=(1073,430)
+136.7158 	DATA 	Mouse:  Left button up, pos=(1073,430)
+138.3317 	EXP 	Pfeile: autoDraw = False
+138.3482 	EXP 	CueFigure: autoDraw = False
+138.3482 	EXP 	topLeft: autoDraw = False
+138.3482 	EXP 	bottomLeft: autoDraw = False
+138.3482 	EXP 	topRight: autoDraw = False
+138.3482 	EXP 	bottomRight: autoDraw = False
+138.3482 	EXP 	Pfeile: autoDraw = False
+138.3482 	EXP 	Fixation: autoDraw = True
+143.2539 	EXP 	Fixation: autoDraw = False
+143.2539 	EXP 	Fixation: autoDraw = False
+143.2539 	EXP 	Figure1: image = 'FPA_Stimuli/geometric001.png'
+143.2539 	EXP 	Figure2: image = 'FPA_Stimuli/geometric004.png'
+143.2539 	EXP 	Figure1: autoDraw = True
+143.2539 	EXP 	Figure2: autoDraw = True
+146.2646 	EXP 	Figure1: autoDraw = False
+146.2646 	EXP 	Figure2: autoDraw = False
+146.2646 	EXP 	Fixation: autoDraw = True
+148.4646 	EXP 	Fixation: autoDraw = False
+148.4646 	EXP 	Fixation: autoDraw = False
+148.4646 	EXP 	Ende: autoDraw = True
+150.4645 	EXP 	Ende: autoDraw = False
+150.4645 	EXP 	Ende: autoDraw = False
+151.0171 	EXP 	window1: mouseVisible = True

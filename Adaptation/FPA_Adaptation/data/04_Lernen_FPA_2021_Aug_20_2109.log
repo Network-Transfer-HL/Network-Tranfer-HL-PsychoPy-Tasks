@@ -1,0 +1,98 @@
+1.1070 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+53.2783 	WARNING 	User requested fullscreen with size [1366  768], but screen is actually [1440, 900]. Using actual size
+54.1368 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fac23167a58>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fac245ff898>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+54.1370 	EXP 	window1: mouseVisible = True
+54.1371 	EXP 	window1: recordFrameIntervals = False
+54.3014 	EXP 	window1: recordFrameIntervals = True
+54.5170 	EXP 	window1: recordFrameIntervals = False
+54.9040 	EXP 	Created Wilkommen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Wilkommen', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+54.9042 	EXP 	window1: mouseVisible = True
+54.9772 	EXP 	Created Kreuz = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Kreuz.png', interpolate=True, mask=None, maskParams=None, name='Kreuz', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.1 ]), texRes=128, units='height', win=Window(...))
+54.9809 	EXP 	Created FigureA = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='FigureA', opacity=1.0, ori=0.0, pos=array([-0.4,  0. ]), size=array([0.63 , 0.382]), texRes=512, units='height', win=Window(...))
+54.9829 	EXP 	Created FigureB = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='FigureB', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), size=array([0.63 , 0.382]), texRes=512, units='height', win=Window(...))
+54.9868 	EXP 	Created Fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Kreuz.png', interpolate=True, mask=None, maskParams=None, name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.1 ]), texRes=512, units='height', win=Window(...))
+54.9885 	EXP 	Created FigureA = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='FigureA', opacity=1.0, ori=0.0, pos=array([-0.4,  0. ]), size=array([0.63 , 0.382]), texRes=512, units='height', win=Window(...))
+54.9950 	EXP 	Created FigureB = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='FigureB', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), size=array([0.63 , 0.382]), texRes=512, units='height', win=Window(...))
+54.9979 	EXP 	Created Fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Kreuz.png', interpolate=True, mask=None, maskParams=None, name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.1 ]), texRes=512, units='height', win=Window(...))
+55.0078 	EXP 	Created TextEnde = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TextEnde', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Ende\n\nVielen Dank ', units='height', win=Window(...), wrapWidth=1)
+55.0345 	EXP 	Wilkommen: autoDraw = True
+78.0514 	DATA 	Mouse: Left button down, pos=(497,578)
+78.0841 	EXP 	Wilkommen: autoDraw = False
+78.0841 	EXP 	Kreuz: autoDraw = True
+78.1852 	DATA 	Mouse:  Left button up, pos=(497,578)
+79.1312 	EXP 	Imported FPA_Lernen_Stimulus_List.xlsx as conditions, 6 conditions, 3 params
+79.1332 	EXP 	Created sequence: sequential, trialTypes=6, nReps=1, seed=None
+79.1337 	EXP 	New trial (rep=0, index=0): OrderedDict([('Cue', 'FPA_Stimuli/abstract002.png'), ('Target', 'FPA_Stimuli/abstract005.png'), ('Number', 1)])
+79.1674 	EXP 	Kreuz: autoDraw = False
+79.1674 	EXP 	FigureA: image = 'FPA_Stimuli/abstract002.png'
+79.1674 	EXP 	FigureB: image = 'FPA_Stimuli/abstract005.png'
+79.1674 	EXP 	FigureA: autoDraw = True
+79.1674 	EXP 	FigureB: autoDraw = True
+82.1008 	EXP 	FigureA: autoDraw = False
+82.1008 	EXP 	FigureB: autoDraw = False
+82.1008 	EXP 	Fixation: autoDraw = True
+85.2851 	EXP 	New trial (rep=0, index=1): OrderedDict([('Cue', 'FPA_Stimuli/geometric003.png'), ('Target', 'FPA_Stimuli/geometric006.png'), ('Number', 2)])
+85.3174 	EXP 	Fixation: autoDraw = False
+85.3174 	EXP 	Fixation: autoDraw = False
+85.3174 	EXP 	FigureA: image = 'FPA_Stimuli/geometric003.png'
+85.3174 	EXP 	FigureB: image = 'FPA_Stimuli/geometric006.png'
+85.3174 	EXP 	FigureA: autoDraw = True
+85.3174 	EXP 	FigureB: autoDraw = True
+88.3173 	EXP 	FigureA: autoDraw = False
+88.3173 	EXP 	FigureB: autoDraw = False
+88.3173 	EXP 	Fixation: autoDraw = True
+90.6015 	EXP 	New trial (rep=0, index=2): OrderedDict([('Cue', 'FPA_Stimuli/abstract001.png'), ('Target', 'FPA_Stimuli/abstract004.png'), ('Number', 3)])
+90.6340 	EXP 	Fixation: autoDraw = False
+90.6340 	EXP 	Fixation: autoDraw = False
+90.6340 	EXP 	FigureA: image = 'FPA_Stimuli/abstract001.png'
+90.6340 	EXP 	FigureB: image = 'FPA_Stimuli/abstract004.png'
+90.6340 	EXP 	FigureA: autoDraw = True
+90.6340 	EXP 	FigureB: autoDraw = True
+93.6337 	EXP 	FigureA: autoDraw = False
+93.6337 	EXP 	FigureB: autoDraw = False
+93.6337 	EXP 	Fixation: autoDraw = True
+97.1182 	EXP 	New trial (rep=0, index=3): OrderedDict([('Cue', 'FPA_Stimuli/geometric002.png'), ('Target', 'FPA_Stimuli/geometric005.png'), ('Number', 4)])
+97.1506 	EXP 	Fixation: autoDraw = False
+97.1506 	EXP 	Fixation: autoDraw = False
+97.1506 	EXP 	FigureA: image = 'FPA_Stimuli/geometric002.png'
+97.1506 	EXP 	FigureB: image = 'FPA_Stimuli/geometric005.png'
+97.1506 	EXP 	FigureA: autoDraw = True
+97.1506 	EXP 	FigureB: autoDraw = True
+100.1502 	EXP 	FigureA: autoDraw = False
+100.1502 	EXP 	FigureB: autoDraw = False
+100.1502 	EXP 	Fixation: autoDraw = True
+103.7348 	EXP 	New trial (rep=0, index=4): OrderedDict([('Cue', 'FPA_Stimuli/abstract003.png'), ('Target', 'FPA_Stimuli/abstract006.png'), ('Number', 5)])
+103.7673 	EXP 	Fixation: autoDraw = False
+103.7673 	EXP 	Fixation: autoDraw = False
+103.7673 	EXP 	FigureA: image = 'FPA_Stimuli/abstract003.png'
+103.7673 	EXP 	FigureB: image = 'FPA_Stimuli/abstract006.png'
+103.7673 	EXP 	FigureA: autoDraw = True
+103.7673 	EXP 	FigureB: autoDraw = True
+106.7669 	EXP 	FigureA: autoDraw = False
+106.7669 	EXP 	FigureB: autoDraw = False
+106.7669 	EXP 	Fixation: autoDraw = True
+111.1508 	EXP 	New trial (rep=0, index=5): OrderedDict([('Cue', 'FPA_Stimuli/geometric001.png'), ('Target', 'FPA_Stimuli/geometric004.png'), ('Number', 6)])
+111.1837 	EXP 	Fixation: autoDraw = False
+111.1837 	EXP 	Fixation: autoDraw = False
+111.1837 	EXP 	FigureA: image = 'FPA_Stimuli/geometric001.png'
+111.1837 	EXP 	FigureB: image = 'FPA_Stimuli/geometric004.png'
+111.1837 	EXP 	FigureA: autoDraw = True
+111.1837 	EXP 	FigureB: autoDraw = True
+114.1836 	EXP 	FigureA: autoDraw = False
+114.1836 	EXP 	FigureB: autoDraw = False
+114.1836 	EXP 	Fixation: autoDraw = True
+116.2874 	EXP 	Fixation: autoDraw = False
+116.2874 	EXP 	Fixation: autoDraw = False
+116.2874 	EXP 	FigureA: image = 'FPA_Stimuli/geometric001.png'
+116.2874 	EXP 	FigureB: image = 'FPA_Stimuli/geometric004.png'
+116.2874 	EXP 	FigureA: autoDraw = True
+116.2874 	EXP 	FigureB: autoDraw = True
+119.2992 	EXP 	FigureA: autoDraw = False
+119.2992 	EXP 	FigureB: autoDraw = False
+119.2992 	EXP 	Fixation: autoDraw = True
+122.1998 	EXP 	Fixation: autoDraw = False
+122.1998 	EXP 	Fixation: autoDraw = False
+122.1998 	EXP 	TextEnde: autoDraw = True
+124.2001 	EXP 	TextEnde: autoDraw = False
+124.2001 	EXP 	TextEnde: autoDraw = False
+124.4969 	EXP 	window1: mouseVisible = True

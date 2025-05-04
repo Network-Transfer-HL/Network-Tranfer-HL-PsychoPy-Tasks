@@ -1,0 +1,4 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,Cue,Target,L1,L2,R1,R2,CorrPos,CorrAns,Anleitungstext1.started,Anleitungstext1.stopped,mouseNext.started,mouseNext.stopped,Anleitungstext2.started,Anleitungstext2.stopped,mouseNext3.started,mouseNext3.stopped,Cross.started,Cross.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,10.049596118999034,None,0.0010862421986530535,None,,,,,,,test,001,2021_Aug_20_2117,ImmediateRecall_NSWP,2020.2.10,59.87937180814399,
+,,,,,,,,,,,,,,,,11.018069988997013,None,0.014880445702146972,None,,,test,001,2021_Aug_20_2117,ImmediateRecall_NSWP,2020.2.10,59.87937180814399,
+,,,,,,,,,,,,,,,,,,,,11.551818883999658,None,,,,,,,

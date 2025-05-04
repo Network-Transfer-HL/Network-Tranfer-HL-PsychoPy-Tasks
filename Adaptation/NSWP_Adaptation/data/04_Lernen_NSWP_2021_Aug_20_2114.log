@@ -1,0 +1,134 @@
+1.5879 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['pyo'] (in that order).
+12.8226 	WARNING 	User requested fullscreen with size [1366  768], but screen is actually [1440, 900]. Using actual size
+13.5321 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc179ff8c50>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc17a23a0b8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.5322 	EXP 	window1: mouseVisible = True
+13.5323 	EXP 	window1: recordFrameIntervals = False
+13.6988 	EXP 	window1: recordFrameIntervals = True
+13.8822 	EXP 	window1: recordFrameIntervals = False
+14.2137 	EXP 	Created Wilkommen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='Wilkommen', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.2139 	EXP 	window1: mouseVisible = True
+14.2296 	EXP 	Created Kreuz = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Kreuz.png', interpolate=True, mask=None, maskParams=None, name='Kreuz', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.1 ]), texRes=128, units='height', win=Window(...))
+14.2333 	EXP 	Created Target_Background = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='white.png', interpolate=True, mask=None, maskParams=None, name='Target_Background', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), size=array([0.63 , 0.382]), texRes=512, units='height', win=Window(...))
+14.2361 	EXP 	Created Cue_Background = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='white.png', interpolate=True, mask=None, maskParams=None, name='Cue_Background', opacity=1.0, ori=0.0, pos=array([-0.4,  0. ]), size=array([0.63 , 0.382]), texRes=512, units='height', win=Window(...))
+14.2457 	EXP 	Created CueWord = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='CueWord', opacity=1.0, ori=0, pos=array([-0.4,  0. ]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.2479 	EXP 	Created TargetWord = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='TargetWord', opacity=1.0, ori=0, pos=array([0.4, 0. ]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.2508 	EXP 	Created Fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Kreuz.png', interpolate=True, mask=None, maskParams=None, name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.1 ]), texRes=512, units='height', win=Window(...))
+14.2536 	EXP 	Created Target_Background = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='white.png', interpolate=True, mask=None, maskParams=None, name='Target_Background', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), size=array([0.63 , 0.382]), texRes=512, units='height', win=Window(...))
+14.2563 	EXP 	Created Cue_Background = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='white.png', interpolate=True, mask=None, maskParams=None, name='Cue_Background', opacity=1.0, ori=0.0, pos=array([-0.4,  0. ]), size=array([0.63 , 0.382]), texRes=512, units='height', win=Window(...))
+14.2588 	EXP 	Created CueWord = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='CueWord', opacity=1.0, ori=0, pos=array([-0.4,  0. ]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.2609 	EXP 	Created TargetWord = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='TargetWord', opacity=1.0, ori=0, pos=array([0.4, 0. ]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.2636 	EXP 	Created Fixation = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Kreuz.png', interpolate=True, mask=None, maskParams=None, name='Fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.1 ]), texRes=512, units='height', win=Window(...))
+14.2741 	EXP 	Created TextEnde = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TextEnde', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Ende\n\nVielen Dank ', units='height', win=Window(...), wrapWidth=1)
+14.2989 	EXP 	Wilkommen: autoDraw = True
+31.9538 	DATA 	Mouse: Left button down, pos=(463,580)
+31.9859 	EXP 	Wilkommen: autoDraw = False
+31.9859 	EXP 	Kreuz: autoDraw = True
+32.0545 	DATA 	Mouse:  Left button up, pos=(463,580)
+32.9890 	EXP 	Imported NSWP_Lernen_Stimulus_List.xlsx as conditions, 6 conditions, 2 params
+32.9892 	EXP 	Created sequence: sequential, trialTypes=6, nReps=1, seed=None
+32.9895 	EXP 	New trial (rep=0, index=0): OrderedDict([('Cue', 'LURFEN'), ('Target', 'UNGRAL')])
+33.0197 	EXP 	Kreuz: autoDraw = False
+33.0197 	EXP 	CueWord: text = 'LURFEN'
+33.0197 	EXP 	TargetWord: text = 'UNGRAL'
+33.0197 	EXP 	Target_Background: autoDraw = True
+33.0197 	EXP 	Cue_Background: autoDraw = True
+33.0197 	EXP 	CueWord: autoDraw = True
+33.0197 	EXP 	TargetWord: autoDraw = True
+35.9861 	EXP 	Target_Background: autoDraw = False
+35.9861 	EXP 	Cue_Background: autoDraw = False
+35.9861 	EXP 	CueWord: autoDraw = False
+35.9861 	EXP 	TargetWord: autoDraw = False
+35.9861 	EXP 	Fixation: autoDraw = True
+40.9709 	EXP 	New trial (rep=0, index=1): OrderedDict([('Cue', 'REMBER'), ('Target', 'TIGMAU')])
+41.0031 	EXP 	Fixation: autoDraw = False
+41.0031 	EXP 	Fixation: autoDraw = False
+41.0031 	EXP 	CueWord: text = 'REMBER'
+41.0031 	EXP 	TargetWord: text = 'TIGMAU'
+41.0031 	EXP 	Target_Background: autoDraw = True
+41.0031 	EXP 	Cue_Background: autoDraw = True
+41.0031 	EXP 	CueWord: autoDraw = True
+41.0031 	EXP 	TargetWord: autoDraw = True
+44.0032 	EXP 	Target_Background: autoDraw = False
+44.0032 	EXP 	Cue_Background: autoDraw = False
+44.0032 	EXP 	CueWord: autoDraw = False
+44.0032 	EXP 	TargetWord: autoDraw = False
+44.0032 	EXP 	Fixation: autoDraw = True
+48.3871 	EXP 	New trial (rep=0, index=2): OrderedDict([('Cue', 'GERTRA'), ('Target', 'STRUKE')])
+48.4196 	EXP 	Fixation: autoDraw = False
+48.4196 	EXP 	Fixation: autoDraw = False
+48.4196 	EXP 	CueWord: text = 'GERTRA'
+48.4196 	EXP 	TargetWord: text = 'STRUKE'
+48.4196 	EXP 	Target_Background: autoDraw = True
+48.4196 	EXP 	Cue_Background: autoDraw = True
+48.4196 	EXP 	CueWord: autoDraw = True
+48.4196 	EXP 	TargetWord: autoDraw = True
+51.4192 	EXP 	Target_Background: autoDraw = False
+51.4192 	EXP 	Cue_Background: autoDraw = False
+51.4192 	EXP 	CueWord: autoDraw = False
+51.4192 	EXP 	TargetWord: autoDraw = False
+51.4192 	EXP 	Fixation: autoDraw = True
+55.7035 	EXP 	New trial (rep=0, index=3): OrderedDict([('Cue', 'N AUPEL'), ('Target', 'WANGUS')])
+55.7362 	EXP 	Fixation: autoDraw = False
+55.7362 	EXP 	Fixation: autoDraw = False
+55.7362 	EXP 	CueWord: text = 'N AUPEL'
+55.7362 	EXP 	TargetWord: text = 'WANGUS'
+55.7362 	EXP 	Target_Background: autoDraw = True
+55.7362 	EXP 	Cue_Background: autoDraw = True
+55.7362 	EXP 	CueWord: autoDraw = True
+55.7362 	EXP 	TargetWord: autoDraw = True
+58.7360 	EXP 	Target_Background: autoDraw = False
+58.7360 	EXP 	Cue_Background: autoDraw = False
+58.7360 	EXP 	CueWord: autoDraw = False
+58.7360 	EXP 	TargetWord: autoDraw = False
+58.7360 	EXP 	Fixation: autoDraw = True
+62.9204 	EXP 	New trial (rep=0, index=4): OrderedDict([('Cue', 'FRAMEL'), ('Target', 'TAMRIE')])
+62.9402 	EXP 	Fixation: autoDraw = False
+62.9402 	EXP 	Fixation: autoDraw = False
+62.9402 	EXP 	CueWord: text = 'FRAMEL'
+62.9402 	EXP 	TargetWord: text = 'TAMRIE'
+62.9402 	EXP 	Target_Background: autoDraw = True
+62.9402 	EXP 	Cue_Background: autoDraw = True
+62.9402 	EXP 	CueWord: autoDraw = True
+62.9402 	EXP 	TargetWord: autoDraw = True
+65.9521 	EXP 	Target_Background: autoDraw = False
+65.9521 	EXP 	Cue_Background: autoDraw = False
+65.9521 	EXP 	CueWord: autoDraw = False
+65.9521 	EXP 	TargetWord: autoDraw = False
+65.9521 	EXP 	Fixation: autoDraw = True
+70.5366 	EXP 	New trial (rep=0, index=5): OrderedDict([('Cue', 'VETRAM'), ('Target', 'SEIPEN')])
+70.5574 	EXP 	Fixation: autoDraw = False
+70.5574 	EXP 	Fixation: autoDraw = False
+70.5574 	EXP 	CueWord: text = 'VETRAM'
+70.5574 	EXP 	TargetWord: text = 'SEIPEN'
+70.5574 	EXP 	Target_Background: autoDraw = True
+70.5574 	EXP 	Cue_Background: autoDraw = True
+70.5574 	EXP 	CueWord: autoDraw = True
+70.5574 	EXP 	TargetWord: autoDraw = True
+73.5691 	EXP 	Target_Background: autoDraw = False
+73.5691 	EXP 	Cue_Background: autoDraw = False
+73.5691 	EXP 	CueWord: autoDraw = False
+73.5691 	EXP 	TargetWord: autoDraw = False
+73.5691 	EXP 	Fixation: autoDraw = True
+77.6691 	EXP 	Fixation: autoDraw = False
+77.6691 	EXP 	Fixation: autoDraw = False
+77.6691 	EXP 	CueWord: text = 'VETRAM'
+77.6691 	EXP 	TargetWord: text = 'SEIPEN'
+77.6691 	EXP 	Target_Background: autoDraw = True
+77.6691 	EXP 	Cue_Background: autoDraw = True
+77.6691 	EXP 	CueWord: autoDraw = True
+77.6691 	EXP 	TargetWord: autoDraw = True
+80.6690 	EXP 	Target_Background: autoDraw = False
+80.6690 	EXP 	Cue_Background: autoDraw = False
+80.6690 	EXP 	CueWord: autoDraw = False
+80.6690 	EXP 	TargetWord: autoDraw = False
+80.6690 	EXP 	Target_Background: autoDraw = False
+80.6690 	EXP 	Cue_Background: autoDraw = False
+80.6690 	EXP 	CueWord: autoDraw = False
+80.6690 	EXP 	TargetWord: autoDraw = False
+80.6690 	EXP 	Fixation: autoDraw = True
+82.5690 	EXP 	Fixation: autoDraw = False
+82.5690 	EXP 	Fixation: autoDraw = False
+82.5690 	EXP 	TextEnde: autoDraw = True
+84.5686 	EXP 	TextEnde: autoDraw = False
+84.5686 	EXP 	TextEnde: autoDraw = False
+84.8555 	EXP 	window1: mouseVisible = True
