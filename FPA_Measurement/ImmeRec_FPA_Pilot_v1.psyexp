@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2020.2.10">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="fileList"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1366, 768]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="ImmediateRecall_FPA" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="GutenMorgen">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2.5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Guten Morgen!" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Abfrage">
+      <ImageComponent name="CueFigure">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Cue" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="CueFigure" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(-0.5, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.380, 0.220)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="7" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="512" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="topLeft">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$L1" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="topLeft" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.1, 0.2)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.380, 0.220)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="7" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="512" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="bottomLeft">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$L2" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="bottomLeft" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.1, -0.2)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.380, 0.220)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="7" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="512" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="topRight">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$R1" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="topRight" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.6, 0.2)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.380, 0.220)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="7" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="512" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="bottomRight">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$R2" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="bottomRight" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.6, -0.2)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.380, 0.220)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="7" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="512" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="Pfeile">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Pfeile.png" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="Pfeile" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="45" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.35, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.315, 0.191)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="3.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="512" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <MouseComponent name="mouse_resp">
+        <Param name="clickable" updates="constant" val="topLeft, bottomLeft, topRight, bottomRight" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="mouse_resp" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="on click" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="3.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="VielenDank">
+      <TextComponent name="Ende">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="Ende" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Ende&amp;#10;&amp;#10;Vielen Dank!" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Correct">
+      <ImageComponent name="Figure1">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Cue" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="Figure1" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(-0.4, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.63, 0.382)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="512" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="Figure2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$Target" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="Figure2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.4, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.63, 0.382)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="3.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="512" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="Anleitung1">
+      <TextComponent name="Anleitungstext1">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.04" valType="code"/>
+        <Param name="name" updates="None" val="Anleitungstext1" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Im Folgenden wird Ihnen für sieben Sekunden auf der linken Seite des Bildschirms eine Figur gezeigt.&amp;#10;&amp;#10;Auf der rechten Seite werden vier Antwortmöglichkeiten zu sehen sein. &amp;#10;&amp;#10;-&gt; Weiter mit einem Mausklick" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="mouseNext">
+        <Param name="clickable" updates="constant" val="" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="any click" valType="str"/>
+        <Param name="name" updates="None" val="mouseNext" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="never" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="experiment" valType="str"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="ISIs">
+      <ImageComponent name="Fixation">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Kreuz.png" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="Fixation" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.15, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="$jitter" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="512" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <CodeComponent name="ITI">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="jitter = ((random() * 3.3) + 1.7);&amp;#10;jitter = round(jitter, 1);&amp;#10;thisExp.addData(&quot;jitter&quot;, jitter);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="jitter = random() * 3.3 + 1.7&amp;#10;jitter = round(jitter, 1)&amp;#10;thisExp.addData('jitter', jitter)" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="ITI" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Anleitung2">
+      <TextComponent name="Anleitungstext2">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.04" valType="code"/>
+        <Param name="name" updates="None" val="Anleitungstext2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Bitte antworten Sie immer erst, wenn die Pfeile zwischen den Antwortmöglichkeiten auftauchen.&amp;#10;Sie haben dann noch 4 Sekunden um mit einem Mausklick das korrekte Figurenpaar aus der Lernphase zu vervollständigen.&amp;#10;&amp;#10;Nach Ihrer Antwort wird Ihnen das richtige Figurenpaar angezeigt.&amp;#10;&amp;#10;Zwischen den Aufgaben wird es kurze Pausen geben.&amp;#10;&amp;#10;-&gt; Weiter mit einem Mausclick" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="mouseNext3">
+        <Param name="clickable" updates="constant" val="" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="any click" valType="str"/>
+        <Param name="name" updates="None" val="mouseNext3" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="never" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="experiment" valType="str"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="PreStimulus">
+      <ImageComponent name="Cross">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Kreuz.png" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="Cross" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.15, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="WaitingforScanner">
+      <TextComponent name="Wait_for_Scanner">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="Wait_for_Scanner" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Warte auf Scanner..." valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="ScannerStart">
+        <Param name="allowedKeys" updates="constant" val="'s'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="ScannerStart" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Anleitung1"/>
+    <Routine name="Anleitung2"/>
+    <Routine name="WaitingforScanner"/>
+    <Routine name="PreStimulus"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="0:60" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('Cue', 'FPA_Stimuli/abstract112.png'), ('Target', 'FPA_Stimuli/abstract102.png'), ('L1', 'FPA_Stimuli/abstract061.png'), ('L2', 'FPA_Stimuli/abstract020.png'), ('R1', 'FPA_Stimuli/abstract026.png'), ('R2', 'FPA_Stimuli/abstract102.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/abstract102.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly007.png'), ('Target', 'FPA_Stimuli/wobbly089.png'), ('L1', 'FPA_Stimuli/wobbly089.png'), ('L2', 'FPA_Stimuli/wobbly010.png'), ('R1', 'FPA_Stimuli/wobbly015.png'), ('R2', 'FPA_Stimuli/wobbly045.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/wobbly089.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly079.png'), ('Target', 'FPA_Stimuli/wobbly113.png'), ('L1', 'FPA_Stimuli/wobbly113.png'), ('L2', 'FPA_Stimuli/wobbly083.png'), ('R1', 'FPA_Stimuli/wobbly089.png'), ('R2', 'FPA_Stimuli/wobbly016.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/wobbly113.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly102.png'), ('Target', 'FPA_Stimuli/wobbly104.png'), ('L1', 'FPA_Stimuli/wobbly104.png'), ('L2', 'FPA_Stimuli/wobbly099.png'), ('R1', 'FPA_Stimuli/wobbly092.png'), ('R2', 'FPA_Stimuli/wobbly051.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/wobbly104.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract127.png'), ('Target', 'FPA_Stimuli/abstract117.png'), ('L1', 'FPA_Stimuli/abstract140.png'), ('L2', 'FPA_Stimuli/abstract099.png'), ('R1', 'FPA_Stimuli/abstract105.png'), ('R2', 'FPA_Stimuli/abstract117.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/abstract117.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract016.png'), ('Target', 'FPA_Stimuli/abstract006.png'), ('L1', 'FPA_Stimuli/abstract075.png'), ('L2', 'FPA_Stimuli/abstract034.png'), ('R1', 'FPA_Stimuli/abstract006.png'), ('R2', 'FPA_Stimuli/abstract152.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/abstract006.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly110.png'), ('Target', 'FPA_Stimuli/wobbly063.png'), ('L1', 'FPA_Stimuli/wobbly071.png'), ('L2', 'FPA_Stimuli/wobbly065.png'), ('R1', 'FPA_Stimuli/wobbly063.png'), ('R2', 'FPA_Stimuli/wobbly105.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/wobbly063.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly033.png'), ('Target', 'FPA_Stimuli/wobbly025.png'), ('L1', 'FPA_Stimuli/wobbly033.png'), ('L2', 'FPA_Stimuli/wobbly009.png'), ('R1', 'FPA_Stimuli/wobbly025.png'), ('R2', 'FPA_Stimuli/wobbly075.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/wobbly025.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract014.png'), ('Target', 'FPA_Stimuli/abstract004.png'), ('L1', 'FPA_Stimuli/abstract092.png'), ('L2', 'FPA_Stimuli/abstract029.png'), ('R1', 'FPA_Stimuli/abstract057.png'), ('R2', 'FPA_Stimuli/abstract004.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/abstract004.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract081.png'), ('Target', 'FPA_Stimuli/abstract071.png'), ('L1', 'FPA_Stimuli/abstract148.png'), ('L2', 'FPA_Stimuli/abstract071.png'), ('R1', 'FPA_Stimuli/abstract043.png'), ('R2', 'FPA_Stimuli/abstract001.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/abstract071.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly088.png'), ('Target', 'FPA_Stimuli/wobbly091.png'), ('L1', 'FPA_Stimuli/wobbly091.png'), ('L2', 'FPA_Stimuli/wobbly100.png'), ('R1', 'FPA_Stimuli/wobbly023.png'), ('R2', 'FPA_Stimuli/wobbly083.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/wobbly091.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly070.png'), ('Target', 'FPA_Stimuli/wobbly075.png'), ('L1', 'FPA_Stimuli/wobbly088.png'), ('L2', 'FPA_Stimuli/wobbly050.png'), ('R1', 'FPA_Stimuli/wobbly044.png'), ('R2', 'FPA_Stimuli/wobbly075.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/wobbly075.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract096.png'), ('Target', 'FPA_Stimuli/abstract086.png'), ('L1', 'FPA_Stimuli/abstract154.png'), ('L2', 'FPA_Stimuli/abstract086.png'), ('R1', 'FPA_Stimuli/abstract123.png'), ('R2', 'FPA_Stimuli/abstract082.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/abstract086.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly047.png'), ('Target', 'FPA_Stimuli/wobbly043.png'), ('L1', 'FPA_Stimuli/wobbly046.png'), ('L2', 'FPA_Stimuli/wobbly106.png'), ('R1', 'FPA_Stimuli/wobbly043.png'), ('R2', 'FPA_Stimuli/wobbly005.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/wobbly043.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract064.png'), ('Target', 'FPA_Stimuli/abstract054.png'), ('L1', 'FPA_Stimuli/abstract054.png'), ('L2', 'FPA_Stimuli/abstract110.png'), ('R1', 'FPA_Stimuli/abstract147.png'), ('R2', 'FPA_Stimuli/abstract153.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/abstract054.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract047.png'), ('Target', 'FPA_Stimuli/abstract037.png'), ('L1', 'FPA_Stimuli/abstract060.png'), ('L2', 'FPA_Stimuli/abstract019.png'), ('R1', 'FPA_Stimuli/abstract037.png'), ('R2', 'FPA_Stimuli/abstract088.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/abstract037.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract160.png'), ('Target', 'FPA_Stimuli/abstract150.png'), ('L1', 'FPA_Stimuli/abstract132.png'), ('L2', 'FPA_Stimuli/abstract150.png'), ('R1', 'FPA_Stimuli/abstract059.png'), ('R2', 'FPA_Stimuli/abstract018.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/abstract150.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly005.png'), ('Target', 'FPA_Stimuli/wobbly013.png'), ('L1', 'FPA_Stimuli/wobbly013.png'), ('L2', 'FPA_Stimuli/wobbly011.png'), ('R1', 'FPA_Stimuli/wobbly087.png'), ('R2', 'FPA_Stimuli/wobbly021.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/wobbly013.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly031.png'), ('Target', 'FPA_Stimuli/wobbly085.png'), ('L1', 'FPA_Stimuli/wobbly075.png'), ('L2', 'FPA_Stimuli/wobbly038.png'), ('R1', 'FPA_Stimuli/wobbly085.png'), ('R2', 'FPA_Stimuli/wobbly022.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/wobbly085.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract159.png'), ('Target', 'FPA_Stimuli/abstract149.png'), ('L1', 'FPA_Stimuli/abstract126.png'), ('L2', 'FPA_Stimuli/abstract149.png'), ('R1', 'FPA_Stimuli/abstract155.png'), ('R2', 'FPA_Stimuli/abstract114.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/abstract149.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract015.png'), ('Target', 'FPA_Stimuli/abstract005.png'), ('L1', 'FPA_Stimuli/abstract011.png'), ('L2', 'FPA_Stimuli/abstract130.png'), ('R1', 'FPA_Stimuli/abstract005.png'), ('R2', 'FPA_Stimuli/abstract120.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/abstract005.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly006.png'), ('Target', 'FPA_Stimuli/wobbly014.png'), ('L1', 'FPA_Stimuli/wobbly077.png'), ('L2', 'FPA_Stimuli/wobbly069.png'), ('R1', 'FPA_Stimuli/wobbly039.png'), ('R2', 'FPA_Stimuli/wobbly014.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/wobbly014.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract080.png'), ('Target', 'FPA_Stimuli/abstract070.png'), ('L1', 'FPA_Stimuli/abstract070.png'), ('L2', 'FPA_Stimuli/abstract045.png'), ('R1', 'FPA_Stimuli/abstract003.png'), ('R2', 'FPA_Stimuli/abstract009.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/abstract070.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly041.png'), ('Target', 'FPA_Stimuli/wobbly073.png'), ('L1', 'FPA_Stimuli/wobbly116.png'), ('L2', 'FPA_Stimuli/wobbly034.png'), ('R1', 'FPA_Stimuli/wobbly073.png'), ('R2', 'FPA_Stimuli/wobbly098.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/wobbly073.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract129.png'), ('Target', 'FPA_Stimuli/abstract119.png'), ('L1', 'FPA_Stimuli/abstract119.png'), ('L2', 'FPA_Stimuli/abstract141.png'), ('R1', 'FPA_Stimuli/abstract100.png'), ('R2', 'FPA_Stimuli/abstract106.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/abstract119.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly068.png'), ('Target', 'FPA_Stimuli/wobbly037.png'), ('L1', 'FPA_Stimuli/wobbly081.png'), ('L2', 'FPA_Stimuli/wobbly022.png'), ('R1', 'FPA_Stimuli/wobbly037.png'), ('R2', 'FPA_Stimuli/wobbly058.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/wobbly037.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly067.png'), ('Target', 'FPA_Stimuli/wobbly052.png'), ('L1', 'FPA_Stimuli/wobbly082.png'), ('L2', 'FPA_Stimuli/wobbly105.png'), ('R1', 'FPA_Stimuli/wobbly016.png'), ('R2', 'FPA_Stimuli/wobbly052.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/wobbly052.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract144.png'), ('Target', 'FPA_Stimuli/abstract134.png'), ('L1', 'FPA_Stimuli/abstract077.png'), ('L2', 'FPA_Stimuli/abstract036.png'), ('R1', 'FPA_Stimuli/abstract042.png'), ('R2', 'FPA_Stimuli/abstract134.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/abstract134.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract079.png'), ('Target', 'FPA_Stimuli/abstract069.png'), ('L1', 'FPA_Stimuli/abstract069.png'), ('L2', 'FPA_Stimuli/abstract108.png'), ('R1', 'FPA_Stimuli/abstract067.png'), ('R2', 'FPA_Stimuli/abstract073.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/abstract069.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly066.png'), ('Target', 'FPA_Stimuli/wobbly103.png'), ('L1', 'FPA_Stimuli/wobbly089.png'), ('L2', 'FPA_Stimuli/wobbly103.png'), ('R1', 'FPA_Stimuli/wobbly076.png'), ('R2', 'FPA_Stimuli/wobbly077.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/wobbly103.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract031.png'), ('Target', 'FPA_Stimuli/abstract021.png'), ('L1', 'FPA_Stimuli/abstract094.png'), ('L2', 'FPA_Stimuli/abstract021.png'), ('R1', 'FPA_Stimuli/abstract076.png'), ('R2', 'FPA_Stimuli/abstract035.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/abstract021.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract097.png'), ('Target', 'FPA_Stimuli/abstract087.png'), ('L1', 'FPA_Stimuli/abstract109.png'), ('L2', 'FPA_Stimuli/abstract068.png'), ('R1', 'FPA_Stimuli/abstract074.png'), ('R2', 'FPA_Stimuli/abstract087.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/abstract087.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly105.png'), ('Target', 'FPA_Stimuli/wobbly010.png'), ('L1', 'FPA_Stimuli/wobbly098.png'), ('L2', 'FPA_Stimuli/wobbly010.png'), ('R1', 'FPA_Stimuli/wobbly046.png'), ('R2', 'FPA_Stimuli/wobbly063.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/wobbly010.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly096.png'), ('Target', 'FPA_Stimuli/wobbly115.png'), ('L1', 'FPA_Stimuli/wobbly052.png'), ('L2', 'FPA_Stimuli/wobbly115.png'), ('R1', 'FPA_Stimuli/wobbly004.png'), ('R2', 'FPA_Stimuli/wobbly111.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/wobbly115.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly016.png'), ('Target', 'FPA_Stimuli/wobbly064.png'), ('L1', 'FPA_Stimuli/wobbly064.png'), ('L2', 'FPA_Stimuli/wobbly052.png'), ('R1', 'FPA_Stimuli/wobbly063.png'), ('R2', 'FPA_Stimuli/wobbly029.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/wobbly064.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly098.png'), ('Target', 'FPA_Stimuli/wobbly076.png'), ('L1', 'FPA_Stimuli/wobbly098.png'), ('L2', 'FPA_Stimuli/wobbly112.png'), ('R1', 'FPA_Stimuli/wobbly076.png'), ('R2', 'FPA_Stimuli/wobbly044.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/wobbly076.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly072.png'), ('Target', 'FPA_Stimuli/wobbly048.png'), ('L1', 'FPA_Stimuli/wobbly048.png'), ('L2', 'FPA_Stimuli/wobbly003.png'), ('R1', 'FPA_Stimuli/wobbly118.png'), ('R2', 'FPA_Stimuli/wobbly015.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/wobbly048.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract063.png'), ('Target', 'FPA_Stimuli/abstract053.png'), ('L1', 'FPA_Stimuli/abstract093.png'), ('L2', 'FPA_Stimuli/abstract053.png'), ('R1', 'FPA_Stimuli/abstract044.png'), ('R2', 'FPA_Stimuli/abstract002.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/abstract053.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract032.png'), ('Target', 'FPA_Stimuli/abstract022.png'), ('L1', 'FPA_Stimuli/abstract138.png'), ('L2', 'FPA_Stimuli/abstract022.png'), ('R1', 'FPA_Stimuli/abstract139.png'), ('R2', 'FPA_Stimuli/abstract098.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/abstract022.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract145.png'), ('Target', 'FPA_Stimuli/abstract135.png'), ('L1', 'FPA_Stimuli/abstract041.png'), ('L2', 'FPA_Stimuli/abstract135.png'), ('R1', 'FPA_Stimuli/abstract010.png'), ('R2', 'FPA_Stimuli/abstract142.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/abstract135.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract049.png'), ('Target', 'FPA_Stimuli/abstract039.png'), ('L1', 'FPA_Stimuli/abstract039.png'), ('L2', 'FPA_Stimuli/abstract051.png'), ('R1', 'FPA_Stimuli/abstract052.png'), ('R2', 'FPA_Stimuli/abstract058.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/abstract039.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly108.png'), ('Target', 'FPA_Stimuli/wobbly120.png'), ('L1', 'FPA_Stimuli/wobbly009.png'), ('L2', 'FPA_Stimuli/wobbly120.png'), ('R1', 'FPA_Stimuli/wobbly076.png'), ('R2', 'FPA_Stimuli/wobbly023.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/wobbly120.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly118.png'), ('Target', 'FPA_Stimuli/wobbly045.png'), ('L1', 'FPA_Stimuli/wobbly095.png'), ('L2', 'FPA_Stimuli/wobbly029.png'), ('R1', 'FPA_Stimuli/wobbly099.png'), ('R2', 'FPA_Stimuli/wobbly045.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/wobbly045.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract113.png'), ('Target', 'FPA_Stimuli/abstract103.png'), ('L1', 'FPA_Stimuli/abstract125.png'), ('L2', 'FPA_Stimuli/abstract084.png'), ('R1', 'FPA_Stimuli/abstract090.png'), ('R2', 'FPA_Stimuli/abstract103.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/abstract103.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly025.png'), ('Target', 'FPA_Stimuli/wobbly040.png'), ('L1', 'FPA_Stimuli/wobbly051.png'), ('L2', 'FPA_Stimuli/wobbly092.png'), ('R1', 'FPA_Stimuli/wobbly038.png'), ('R2', 'FPA_Stimuli/wobbly040.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/wobbly040.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly100.png'), ('Target', 'FPA_Stimuli/wobbly116.png'), ('L1', 'FPA_Stimuli/wobbly069.png'), ('L2', 'FPA_Stimuli/wobbly116.png'), ('R1', 'FPA_Stimuli/wobbly064.png'), ('R2', 'FPA_Stimuli/wobbly057.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/wobbly116.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly027.png'), ('Target', 'FPA_Stimuli/wobbly039.png'), ('L1', 'FPA_Stimuli/wobbly110.png'), ('L2', 'FPA_Stimuli/wobbly039.png'), ('R1', 'FPA_Stimuli/wobbly032.png'), ('R2', 'FPA_Stimuli/wobbly070.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/wobbly039.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract143.png'), ('Target', 'FPA_Stimuli/abstract133.png'), ('L1', 'FPA_Stimuli/abstract156.png'), ('L2', 'FPA_Stimuli/abstract115.png'), ('R1', 'FPA_Stimuli/abstract121.png'), ('R2', 'FPA_Stimuli/abstract133.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/abstract133.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract128.png'), ('Target', 'FPA_Stimuli/abstract118.png'), ('L1', 'FPA_Stimuli/abstract107.png'), ('L2', 'FPA_Stimuli/abstract066.png'), ('R1', 'FPA_Stimuli/abstract118.png'), ('R2', 'FPA_Stimuli/abstract136.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/abstract118.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly018.png'), ('Target', 'FPA_Stimuli/wobbly087.png'), ('L1', 'FPA_Stimuli/wobbly093.png'), ('L2', 'FPA_Stimuli/wobbly056.png'), ('R1', 'FPA_Stimuli/wobbly082.png'), ('R2', 'FPA_Stimuli/wobbly087.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/wobbly087.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract095.png'), ('Target', 'FPA_Stimuli/abstract085.png'), ('L1', 'FPA_Stimuli/abstract085.png'), ('L2', 'FPA_Stimuli/abstract124.png'), ('R1', 'FPA_Stimuli/abstract083.png'), ('R2', 'FPA_Stimuli/abstract089.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/abstract085.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract065.png'), ('Target', 'FPA_Stimuli/abstract055.png'), ('L1', 'FPA_Stimuli/abstract027.png'), ('L2', 'FPA_Stimuli/abstract158.png'), ('R1', 'FPA_Stimuli/abstract055.png'), ('R2', 'FPA_Stimuli/abstract025.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/abstract055.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly004.png'), ('Target', 'FPA_Stimuli/wobbly011.png'), ('L1', 'FPA_Stimuli/wobbly032.png'), ('L2', 'FPA_Stimuli/wobbly106.png'), ('R1', 'FPA_Stimuli/wobbly112.png'), ('R2', 'FPA_Stimuli/wobbly011.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/wobbly011.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly035.png'), ('Target', 'FPA_Stimuli/wobbly084.png'), ('L1', 'FPA_Stimuli/wobbly017.png'), ('L2', 'FPA_Stimuli/wobbly104.png'), ('R1', 'FPA_Stimuli/wobbly027.png'), ('R2', 'FPA_Stimuli/wobbly084.png'), ('corrPos', 'R2'), ('corrAnsw', 'FPA_Stimuli/wobbly084.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract017.png'), ('Target', 'FPA_Stimuli/abstract151.png'), ('L1', 'FPA_Stimuli/abstract151.png'), ('L2', 'FPA_Stimuli/abstract157.png'), ('R1', 'FPA_Stimuli/abstract116.png'), ('R2', 'FPA_Stimuli/abstract122.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/abstract151.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly042.png'), ('Target', 'FPA_Stimuli/wobbly050.png'), ('L1', 'FPA_Stimuli/wobbly040.png'), ('L2', 'FPA_Stimuli/wobbly028.png'), ('R1', 'FPA_Stimuli/wobbly050.png'), ('R2', 'FPA_Stimuli/wobbly058.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/wobbly050.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract033.png'), ('Target', 'FPA_Stimuli/abstract023.png'), ('L1', 'FPA_Stimuli/abstract091.png'), ('L2', 'FPA_Stimuli/abstract050.png'), ('R1', 'FPA_Stimuli/abstract023.png'), ('R2', 'FPA_Stimuli/abstract008.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/abstract023.png')]), OrderedDict([('Cue', 'FPA_Stimuli/wobbly062.png'), ('Target', 'FPA_Stimuli/wobbly069.png'), ('L1', 'FPA_Stimuli/wobbly070.png'), ('L2', 'FPA_Stimuli/wobbly069.png'), ('R1', 'FPA_Stimuli/wobbly045.png'), ('R2', 'FPA_Stimuli/wobbly117.png'), ('corrPos', 'L2'), ('corrAnsw', 'FPA_Stimuli/wobbly069.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract048.png'), ('Target', 'FPA_Stimuli/abstract038.png'), ('L1', 'FPA_Stimuli/abstract038.png'), ('L2', 'FPA_Stimuli/abstract012.png'), ('R1', 'FPA_Stimuli/abstract131.png'), ('R2', 'FPA_Stimuli/abstract137.png'), ('corrPos', 'L1'), ('corrAnsw', 'FPA_Stimuli/abstract038.png')]), OrderedDict([('Cue', 'FPA_Stimuli/abstract111.png'), ('Target', 'FPA_Stimuli/abstract101.png'), ('L1', 'FPA_Stimuli/abstract028.png'), ('L2', 'FPA_Stimuli/abstract146.png'), ('R1', 'FPA_Stimuli/abstract101.png'), ('R2', 'FPA_Stimuli/abstract104.png'), ('corrPos', 'R1'), ('corrAnsw', 'FPA_Stimuli/abstract101.png')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="FPA_ImmRec_Stimulus_List.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Abfrage"/>
+    <Routine name="ISIs"/>
+    <Routine name="Correct"/>
+    <Routine name="ISIs"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="VielenDank"/>
+  </Flow>
+</PsychoPy2experiment>
